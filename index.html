@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portable Vault Login</title>
+</head>
+<body>
+  <h1>Enter Vault Password</h1>
+  <input type="password" id="password" />
+  <button onclick="unlock()">Unlock</button>
+
+  <div id="error" style="color: red; display: none;">Invalid password or corrupted bundle.</div>
+
+  <script type="module" src="decryptor.js"></script>
+</body>
+</html>
